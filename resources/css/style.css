@@ -1,0 +1,238 @@
+html {
+	
+	font-size: 18px;
+	font-family: Helvetica, sans-serif;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.company {
+	background-color: black;
+}
+#header {
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	
+}
+#header span {
+	padding: 0.66rem 1rem;
+	font-size: 1rem;
+
+}
+#header img {
+	height: 1.5rem;
+	padding-left: 0.5rem;
+}
+#banner {
+	display: block;
+	
+}
+#banner .adphoto {
+	background-image: url("../images/moto.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	height: 25rem;
+}
+.new {
+	
+	background-color: black;
+	color: white;
+	padding: 2rem 3rem;
+	width: 20rem;
+   
+	position: relative;
+	top: 9rem;
+}  
+.new h2 {
+    font-weight: bold;	
+	font-size: 1rem;
+	padding-bottom: 1rem;
+}
+.new h1 {
+	font-size: 2rem;
+	font-weight: bold;	
+}
+
+.links {
+	background-color: firebrick;
+}
+nav {
+	background-color: firebrick;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.77rem 0;
+	
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+.products {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem 0;
+}
+.item1, .item2, .item3 {
+	border: 3px solid black;
+	display: block;
+	
+	align-items: center;
+	justify-content: center;
+}
+.item1 img, .item2 img, .item3 img {
+	padding: 2rem 0;
+	height:9rem;
+    margin: auto;
+	display: block;
+	
+	
+}
+
+.item1 h3, .item2 h3, .item3 h3 {
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 0.5rem;
+}
+.lochours {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 4rem 0;
+	
+}
+.lochours h3   {
+	
+	display: block;
+	color: white;
+	background-color: black;
+	text-align: left;
+	padding: 1rem 2rem;
+}
+
+.info {
+	display: block;
+	width: 35%;
+
+}
+
+.lochours span {
+
+	display: block;
+	color: black;
+	background-color: white;
+	text-align: left;
+}
+.footer {
+	background-color: black;
+	
+}
+.copyright {
+	color: white;
+	background-color: black;
+	text-align: left;
+	
+	height: 5rem;
+	display: block;
+	padding-top: 2rem;
+	
+}
+@media only screen and (max-width: 1024px) {
+html {
+	font-size: 16px;
+}}
+
+@media only screen and (max-width: 1024px){
+nav  {
+    display: none;
+}
+.mobilenav {
+	display: flex;
+	background-color: firebrick;
+	display: flex;
+	justify-content: center;
+	padding: 0.77rem 0;
+	
+	
+}
+.mobilenav a {
+	color: white;
+	text-decoration: none;
+}
+.item3 {
+	display: none;
+}
+.item1, .item2 {
+	width: 47%;
+}
+}
+
+@media only screen and (min-width: 1025px){
+.mobilenav  {
+    display: none;
+}
+.item1, .item2, .item3 {
+width: 30%;
+}
+}
+
+@media only screen and (max-width: 470px){
+#header span {
+	display: none;
+}
+.item1 {
+	width: 90%;
+}
+.item2, .item3 {
+	display: none;
+}
+#header {
+	justify-content: center;
+}
+.products {
+	justify-content: center;
+}
+.new {
+	background-color: black;
+	color: white;
+	padding: 1rem 2rem;
+	width: 100%;
+    
+	position: relative;
+	top: 10rem;
+	}  
+.new h2 {
+    font-weight: bold;	
+	font-size: 0.77rem;
+	padding-bottom: 0.77rem;
+}
+.new h1 {
+	font-size: 1rem;
+	font-weight: bold;	
+}
+.copyright {
+	text-align: center;
+}
+#banner .adphoto {
+	height: 15rem;
+}
+.lochours {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.info {
+	display: block;
+	width: 90%;
+	padding-top: 0.5rem;
+	
+}
+
+}
+
